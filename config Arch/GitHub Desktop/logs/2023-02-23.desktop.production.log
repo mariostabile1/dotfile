@@ -1,0 +1,18 @@
+2023-02-23T13:54:51.187Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-02-23T13:54:51.196Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-02-23T13:54:51.750Z - info: [ui] launching: 3.1.7-linux1 (Linux 6.1.12-arch1-1)
+2023-02-23T13:54:51.751Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-02-23T13:54:53.567Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-02-23T13:54:53.911Z - info: [ui] Stats reported.
+2023-02-23T13:55:01.349Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 1.811s)
+2023-02-23T13:55:02.937Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.587s)
+2023-02-23T13:55:44.339Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 1.085s
+2023-02-23T13:55:49.459Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-02-23T13:56:27.429Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 37.954s)
+2023-02-23T13:56:30.934Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune --recurse-submodules=on-demand origin (took 3.485s)
+2023-02-23T13:56:32.441Z - info: [ui] Executing updateRemoteHEAD: git -c credential.helper= remote set-head -a origin (took 1.504s)
+2023-02-23T14:00:18.285Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/mariostabile1/Linux.git - mariostabile1 (has token)
+2023-02-23T14:00:20.337Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/mariostabile1/Linux.git /home/mario/GitHub/Linux (took 2.043s)
+2023-02-23T14:00:20.347Z - info: [ui] [AppStore] adding repository at /home/mario/GitHub/Linux to store
+2023-02-23T14:00:20.552Z - info: [ui] [BranchPruner] Last prune took place 5 minutes ago - skipping
+2023-02-23T14:00:20.998Z - info: [ui] [BranchPruner] No branches to prune.

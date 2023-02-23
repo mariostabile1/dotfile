@@ -1,0 +1,97 @@
+2023-02-14T14:22:00.862Z - info: [ui] [AppStore] loading 0 repositories from store
+2023-02-14T14:22:00.951Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-02-14T14:22:00.956Z - info: [ui] launching: 3.1.5-linux2 (Linux 6.1.11-arch1-1)
+2023-02-14T14:22:00.957Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-02-14T14:22:00.982Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-02-14T14:22:01.197Z - info: [ui] Opt in reported.
+2023-02-14T14:22:01.314Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-02-14T14:22:11.697Z - info: [ui] [Welcome] advancing to step: SignInToDotComWithBrowser
+2023-02-14T14:22:11.699Z - info: [ui] [SignInStore] initializing OAuth flow
+2023-02-14T14:22:11.707Z - info: [main] opening in browser: https://github.com/login/oauth/authorize?client_id=3a723b10ac5575cc5bb9&scope=repo%20user%20workflow&state=dee3dc1f-42bf-41ec-ac29-1c9c244d0c02
+2023-02-14T14:22:11.709Z - info: [ui] [Welcome] current sign in state not found. ignoring...
+2023-02-14T14:22:12.084Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2023-02-14T14:22:14.798Z - info: [main] Received possible protocol arguments: 4
+2023-02-14T14:22:14.799Z - info: [main] Processing protocol url
+2023-02-14T14:22:14.801Z - info: [ui] [Dispatcher] requesting authenticated user
+2023-02-14T14:22:14.818Z - info: [ui] [Welcome] kind Authentication is the same as Authentication. ignoring...
+2023-02-14T14:22:15.759Z - info: [ui] [SignInStore] account resolved
+2023-02-14T14:22:15.760Z - info: [ui] [AppStore] adding account mariostabile1 (mariostabile1) to store
+2023-02-14T14:22:15.762Z - info: [ui] [Welcome] advancing to step: ConfigureGit
+2023-02-14T14:22:15.822Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-02-14T14:22:16.221Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-02-14T14:22:16.324Z - info: [ui] [Welcome] no sign in step found. ignoring...
+2023-02-14T14:24:34.573Z - info: [ui] [AppStore.getAccountForRemoteURL] account found for remote: https://github.com/mariostabile1/Universita.git - mariostabile1 (has token)
+2023-02-14T14:24:35.680Z - info: [ui] Executing clone: git -c credential.helper= -c init.defaultBranch=main clone --recursive --progress -- https://github.com/mariostabile1/Universita.git /home/mario/GitHub/Universita (took 1.103s)
+2023-02-14T14:24:35.726Z - info: [ui] [AppStore] adding repository at /home/mario/GitHub/Universita to store
+2023-02-14T14:24:36.552Z - info: [ui] [BranchPruner] No branches to prune.
+2023-02-14T14:26:16.812Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.871s)
+2023-02-14T14:26:16.906Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 2.003s
+2023-02-14T14:26:16.961Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-02-14T14:26:25.984Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Paradigmi/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2023-02-14T14:26:25.986Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.071s
+2023-02-14T14:26:31.279Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-02-14T14:26:48.906Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 17.615s)
+2023-02-14T14:27:30.005Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Paradigmi/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2023-02-14T14:27:30.017Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.070s
+2023-02-14T14:46:32.246Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-02-14T14:46:46.771Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.201s
+2023-02-14T14:46:49.243Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-02-14T14:46:52.394Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 3.136s)
+2023-02-14T17:51:52.793Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-02-14T17:51:52.802Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-02-14T17:51:52.864Z - info: [ui] [BranchPruner] Last prune took place 3 hours ago - skipping
+2023-02-14T17:51:53.147Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-02-14T17:51:53.359Z - info: [ui] launching: 3.1.5-linux2 (Linux 6.1.11-arch1-1)
+2023-02-14T17:51:53.361Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-02-14T17:51:53.400Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-02-14T17:51:53.719Z - info: [ui] Stats reported.
+2023-02-14T17:52:06.899Z - error: [ui] `git commit -F -` exited with an unexpected code: 1.
+stdout:
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Paradigmi/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+2023-02-14T17:52:06.901Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.070s
+2023-02-14T17:52:32.773Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-02-14T17:53:55.721Z - info: [main] opening in browser: https://github.com/mariostabile1/Universita/pull/new/main
+2023-02-14T17:54:18.154Z - info: [ui] [AppStore] loading 1 repositories from store
+2023-02-14T17:54:18.162Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-02-14T17:54:18.215Z - info: [ui] [BranchPruner] Last prune took place 4 hours ago - skipping
+2023-02-14T17:54:18.517Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-02-14T17:54:18.740Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-02-14T17:54:18.741Z - info: [ui] launching: 3.1.5-linux2 (Linux 6.1.11-arch1-1)
+2023-02-14T17:54:18.741Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-02-14T17:56:44.894Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 5.870s)
+2023-02-14T17:56:44.965Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 6.152s
+2023-02-14T17:56:47.376Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-02-14T17:57:59.692Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 72.297s)

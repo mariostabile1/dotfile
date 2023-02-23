@@ -75,6 +75,10 @@ Directory non valida: /root/home
         "alacritty",
         "iwd"
         "ranger"
+        "gcc"
+        "valgrind"
+        "htop"
+        "wpa-supplicant"
     ],
     "parallel downloads": 0,
     "profile": {

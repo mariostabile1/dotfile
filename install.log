@@ -79,6 +79,9 @@ Directory non valida: /root/home
         "valgrind"
         "htop"
         "wpa-supplicant"
+        "ntfs-3g"
+        "snapd"
+        "gdb"
     ],
     "parallel downloads": 0,
     "profile": {

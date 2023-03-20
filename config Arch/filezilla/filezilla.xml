@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<FileZilla3 version="3.63.1" platform="*nix">
+<FileZilla3 version="3.63.2.1" platform="*nix">
 	<Settings>
 		<Setting name="Use Pasv mode">1</Setting>
 		<Setting name="Limit local ports">0</Setting>
@@ -115,7 +115,6 @@
 		<Setting name="Drag and Drop disabled">0</Setting>
 		<Setting name="Disable update footer">0</Setting>
 		<Setting name="Highest shown overlay id">0</Setting>
-		<Setting name="Greeting version">3.63.1</Setting>
 		<Setting name="Site Manager position">0 315 283 1290 515 </Setting>
 		<Setting name="Sitemanager last selected">0/Lab2</Setting>
 		<Setting name="Prompt password save">0</Setting>
@@ -126,10 +125,11 @@
 		<Setting name="Local filelist column order">0,1,2,3</Setting>
 		<Setting name="Remote filelist column order">0,1,2,3,4,5</Setting>
 		<Setting name="Window position and size">0 360 80 1200 832 </Setting>
-		<Setting name="Splitter positions (v2)">97 -130 500000000 234 234 500000000</Setting>
 		<Setting name="Queue column widths">180 60 180 80 60 150</Setting>
 		<Setting name="Local filelist sortorder">0 0</Setting>
 		<Setting name="Remote filelist sortorder">0 0</Setting>
+		<Setting name="Greeting version">3.63.2.1</Setting>
+		<Setting name="Splitter positions (v2)">97 -144 500000000 233 233 500000000</Setting>
 		<Setting name="Tab data" sensitive="1">
 			<Tabs>
 				<Tab connected="1" selected="1">
@@ -144,8 +144,8 @@
 					<BypassProxy>0</BypassProxy>
 					<Name>Lab2</Name>
 					<Site>0/Lab2</Site>
-					<RemotePath>1 0 4 home 5 local 7 ADUNIPI 10 m.stabile4</RemotePath>
-					<LocalPath>/home/mario/Desktop/Università/Lab2/compitino/</LocalPath>
+					<RemotePath>1 0 4 home 5 local 7 ADUNIPI 10 m.stabile4 3 TMP 21 compitino_multithread</RemotePath>
+					<LocalPath>/home/mario/Desktop/Università/Lab2/</LocalPath>
 				</Tab>
 			</Tabs>
 		</Setting>

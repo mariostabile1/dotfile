@@ -1,0 +1,30 @@
+2023-03-04T13:04:19.906Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-03-04T13:04:19.916Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-03-04T13:04:20.259Z - info: [ui] [BranchPruner] No branches to prune.
+2023-03-04T13:04:20.503Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-03-04T13:04:20.554Z - info: [ui] launching: 3.1.8-linux1 (Linux 6.2.1-arch1-1)
+2023-03-04T13:04:20.555Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-03-04T13:04:21.413Z - info: [ui] Stats reported.
+2023-03-04T13:04:54.504Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Coding' took 0.109s
+2023-03-04T13:04:57.675Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Coding - mariostabile1 (has token)
+2023-03-04T13:04:58.768Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.081s)
+2023-03-04T13:05:04.762Z - info: [ui] [BranchPruner] No branches to prune.
+2023-03-04T13:05:24.203Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2023-03-04T13:05:26.885Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 1.098s
+2023-03-04T13:05:26.909Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-04T13:05:41.785Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-03-04T13:05:46.124Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 4.333s)
+2023-03-04T13:17:25.422Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-03-04T13:17:25.426Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-03-04T13:17:25.466Z - info: [ui] [BranchPruner] Last prune took place 12 minutes ago - skipping
+2023-03-04T13:17:25.621Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-04T13:17:25.625Z - info: [ui] launching: 3.1.8-linux1 (Linux 6.2.1-arch1-1)
+2023-03-04T13:17:25.626Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-03-04T13:17:25.957Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-03-04T13:17:30.317Z - info: [ui] [BranchPruner] Last prune took place 12 minutes ago - skipping
+2023-03-04T13:17:43.214Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2023-03-04T13:17:48.362Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Linux' took 0.096s
+2023-03-04T13:17:50.610Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Linux - mariostabile1 (has token)
+2023-03-04T13:17:51.801Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.182s)

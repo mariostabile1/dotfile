@@ -1,0 +1,32 @@
+2023-03-20T17:36:27.136Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-03-20T17:36:27.141Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-03-20T17:36:27.284Z - info: [ui] [BranchPruner] No branches to prune.
+2023-03-20T17:36:27.409Z - info: [ui] launching: 3.2.0-linux1 (Linux 6.2.6-arch1-1)
+2023-03-20T17:36:27.411Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-03-20T17:36:27.668Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-03-20T17:36:27.793Z - info: [ui] Stats reported.
+2023-03-20T17:36:32.971Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-20T17:36:33.055Z - info: [ui] [BranchPruner] No branches to prune.
+2023-03-20T17:36:50.575Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.039s
+2023-03-20T17:37:00.767Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.3s of which 0.0s paused, total 0.3s
+2023-03-20T17:37:12.835Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.026s
+2023-03-20T17:37:42.413Z - info: [ui] [AppStore] loading 3 repositories from store
+2023-03-20T17:37:42.421Z - info: [ui] [AppStore] found account: mariostabile1 (mariostabile1)
+2023-03-20T17:37:42.466Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2023-03-20T17:37:42.708Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-20T17:37:42.718Z - info: [ui] launching: 3.2.0-linux1 (Linux 6.2.6-arch1-1)
+2023-03-20T17:37:42.721Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2023-03-20T17:37:42.978Z - info: [ui] Subscribed 'mariostabile1' to Alive channel
+2023-03-20T17:37:59.172Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-20T17:39:09.783Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.183s
+2023-03-20T17:39:09.831Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2023-03-20T17:39:17.927Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-03-20T17:39:23.012Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 5.078s)
+2023-03-20T17:41:11.590Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 0.7s of which 0.0s paused, total 0.7s
+2023-03-20T17:42:56.617Z - info: [ui] [Timing] Action 'create commit' for 'mariostabile1/Universita' took 0.147s
+2023-03-20T17:42:58.889Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Universita - mariostabile1 (has token)
+2023-03-20T17:43:00.034Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.142s)

@@ -82,6 +82,7 @@ Directory non valida: /root/home
         "ntfs-3g"
         "snapd"
         "gdb"
+        "timeshift"
     ],
     "parallel downloads": 0,
     "profile": {

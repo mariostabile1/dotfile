@@ -73,16 +73,18 @@ Directory non valida: /root/home
         "neofetch",
         "fish",
         "alacritty",
-        "iwd"
-        "ranger"
-        "gcc"
-        "valgrind"
-        "htop"
-        "wpa-supplicant"
-        "ntfs-3g"
-        "snapd"
-        "gdb"
-        "timeshift"
+        "iwd",
+        "ranger",
+        "gcc",
+        "valgrind",
+        "htop",
+        "wpa-supplicant",
+        "ntfs-3g",
+        "snapd",
+        "gdb",
+        "timeshift",
+        "tldr"
+
     ],
     "parallel downloads": 0,
     "profile": {

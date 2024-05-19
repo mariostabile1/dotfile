@@ -9,9 +9,9 @@ set PATH $PATH /home/mario/.local/bin
 alias nt "nautilus ."
 alias pof "sync && poweroff"
 alias sus "systemctl suspend"
-alias ssh_lab2 "ssh m.stabile4@laboratorio2.di.unipi.it"
 alias push "pushd ."
 alias pop "popd"
+alias lock "xdg-screensaver lock"
 
 # Exa file listener config
 if type -q exa

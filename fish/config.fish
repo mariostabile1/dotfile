@@ -12,6 +12,7 @@ alias sus "systemctl suspend"
 alias push "pushd ."
 alias pop "popd"
 alias lock "xdg-screensaver lock"
+alias cd "z"
 
 # Exa file listener config
 if type -q exa

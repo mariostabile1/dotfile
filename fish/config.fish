@@ -12,6 +12,7 @@ alias sus "systemctl suspend"
 alias push "pushd ."
 alias pop "popd"
 alias lock "xdg-screensaver lock"
+alias btop "bpytop"
 
 # Exa file listener config
 if type -q exa
@@ -20,12 +21,3 @@ if type -q exa
   alias ll "ls -1"
 end
 
-# XAMPP 
-function xampp
-	set XAMPP_DATA /opt/lampp
-	if test "$argv[1]" = "start" -o "$argv[1]" = "stop" 
-		$XAMPP_DATA/xampp "$argv[1]"
-	else
-		echo "Argomento sbagliato"
-	end
-end

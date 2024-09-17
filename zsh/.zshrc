@@ -11,9 +11,9 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Prompt setup
-#PROMPT="%{$(tput setaf 9)%}[%{$(tput setaf 10)%}%n%{$(tput setaf 13)%}@%{$(tput setaf 14)%}%m %{$(tput setaf 33)%}%1~%{$(tput setaf 9)%}] %{$(tput setaf 13)%}> %{$(tput sgr0)%}"
-PROMPT="%F{magenta}╭─ %F{blue}%n%f@%F{yellow}%m %F{green}%~%f
-%F{magenta}╰─ %F{red}>%f "
+
+PROMPT="%F{white}╭─ %F{green}%n%f@%F{white}%m %F{green}%~%f
+%F{white}╰─%F{green}>%f "
  
 # Loading plugins
 zinit light zsh-users/zsh-syntax-highlighting # Hightlight commands
@@ -37,7 +37,7 @@ setopt hist_ignore_dups
 setopt hist_find_no_dups
 
 # Keybinds
-bindkey -v
+bindkey -e
 bindkey '^p' history-search-backward # Ctrl+p
 bindkey '^n' history-search-forward  # Ctrl+n
 

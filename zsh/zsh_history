@@ -1,57 +1,40 @@
-ls
-nano .zshrc
-clear
 which zsh
 whereis zsh
 sudo chsh -s /usr/bin/zsh
 chsh -s /usr/bin/zsh mario
-: 1726594848:0;ssh mario@nazilandia.duckdns.org -p 50022
-: 1726594878:0;clear
-: 1726594913:0;cd .config
-: 1726594924:0;fzf
-: 1726594928:0;cd
-: 1726594929:0;clear
-: 1726594931:0;pwd
-: 1726600921:0;.congih
-: 1726600926:0;.config
-: 1726600937:0;cd .config
-: 1726600939:0;ls
-: 1726600975:0;cd zsh
-: 1726600977:0;ls
-: 1726600989:0;cd ..
-: 1726600990:0;clear
-: 1726600990:0;ls
-: 1726600998:0;la
-: 1726601009:0;cd
-: 1726601011:0;la
-: 1726601020:0;nano .zshrc
-: 1726601036:0;cd .config
-: 1726601040:0;cd zsh
-: 1726601040:0;ls
-: 1726601043:0;la
-: 1726601051:0;nano .zshrc
-: 1726603132:0;suca
-: 1726603148:0;cd .config
-: 1726603149:0;lòs
-: 1726603151:0;ls
-: 1726603152:0;lf
-: 1726603164:0;clear
-: 1726603165:0;cd
-: 1726603168:0;lf
-: 1726603231:0;ls
-: 1726603235:0;cd ..
-: 1726603236:0;lòs
-: 1726603237:0;ls
-: 1726603244:0;rm -r dot
-: 1726603254:0;sudo rm -r dot
-: 1726603271:0;clear
-: 1726603280:0;la
-: 1726603282:0;cd
-: 1726603283:0;la
-: 1726603286:0;cd .config
-: 1726603289:0;cd zsh
-: 1726603290:0;ls
-: 1726603296:0;la
-: 1726603302:0;cd ..
-: 1726603344:0;cp zsh ~/GitHub/dotfile/
-: 1726603349:0;cp -r zsh ~/GitHub/dotfile/
+ssh mario@nazilandia.duckdns.org -p 50022
+fzf
+pwd
+.congih
+suca
+lf
+lòs
+rm -r dot
+sudo rm -r dot
+cd ..
+cp zsh ~/GitHub/dotfile/
+cp -r zsh ~/GitHub/dotfile/
+cd GitHub
+cd dotfile
+tree
+.config
+cd
+la
+bat .zshrc
+bat .zshenv
+clear
+cd .config
+cd zsh
+ls
+nano .zshrc
+set -o emacs
+fish
+: 1726612036:0;cd .config
+: 1726612043:0;cd zsh
+: 1726612045:0;ls
+: 1726612048:0;pwd
+: 1726612052:0;clear
+: 1726612096:0;pwd
+: 1726612101:0;cd .config
+: 1726612102:0;ls
+: 1726612109:0;cp -r zsh ~/GitHub/dotfile/

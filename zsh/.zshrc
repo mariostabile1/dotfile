@@ -52,12 +52,17 @@ lfcd () {
 }
 
 # Alias
-alias pof='sync; shutdown now'
-alias push='pushd .'
-alias pop='popd'
+alias pof="sync; shutdown now"
+alias sus="suspend"
+alias push="pushd ."
+alias pop="popd"
 alias ls="exa --icons"
 alias la="ls -lah"
 alias ll="ls -1"
 alias lf="lfcd"
+alias lock="xdg-screensaver lock"
+alias btop="bpytop"
+alias nt="nautilus ."
+
 # Shell integrations
 eval "$(fzf --zsh)" # Ctrl+r

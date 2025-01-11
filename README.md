@@ -19,6 +19,7 @@
 # Font & Theme/icons
 - Fira Code Nerd Font
 - Papirus icons
+- Catppuccin Mocha Theme
 
 # GNOME extensions
 - Blur my Shell

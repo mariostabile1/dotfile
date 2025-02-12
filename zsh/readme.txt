@@ -1,3 +1,3 @@
-After installing zsh, remember to hard link this 2 file
+After installing zsh, remember to soft link this 2 file
 $HOME/.zshrc --> $HOME/.config/zsh/zshrc
-using ln command (ln file1 file1) 
+using ln command (ln -s file1 file1) 

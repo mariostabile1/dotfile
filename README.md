@@ -5,7 +5,7 @@
 - nano
 
 # Tools
-- lf
+- yazi
 - tealdeer (tldr substitute)
 - exa
 - fzf

@@ -59,10 +59,10 @@ alias pop="popd"
 alias ls="exa --icons"
 alias la="ls -lah"
 alias ll="ls -1"
-alias lf="lfcd"
 alias lock="xdg-screensaver lock"
 alias btop="bpytop"
 alias python="python3"
+alias yz="yazi"
 
 # &> reindirizza sia stderr che stdout dentro /dev/null
 alias nt="nautilus . &> /dev/null & disown"

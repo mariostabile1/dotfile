@@ -63,7 +63,7 @@ alias lock="xdg-screensaver lock"
 alias btop="bpytop"
 alias python="python3"
 alias yz="yazi"
-
+alias ..="cd .."
 # &> reindirizza sia stderr che stdout dentro /dev/null
 alias nt="nautilus . &> /dev/null & disown"
 

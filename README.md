@@ -27,3 +27,4 @@
 - Removable Drive Menu
 - Status Icons
 - User Themes
+- Clippboard Indicator

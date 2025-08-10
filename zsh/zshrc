@@ -58,12 +58,12 @@ alias push="pushd ."
 alias pop="popd"
 alias ls="exa --icons"
 alias la="ls -lah"
-alias ll="ls -1"
 alias lock="xdg-screensaver lock"
-alias btop="bpytop"
 alias python="python3"
 alias yz="yazi"
 alias ..="cd .."
+alias temp="cd $(mktemp -d)"
+
 # &> reindirizza sia stderr che stdout dentro /dev/null
 alias nt="nautilus . &> /dev/null & disown"
 
@@ -71,3 +71,9 @@ alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
 
 # Shell integrations
 eval "$(fzf --zsh)" # Ctrl+r
+
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export PATH=$JAVA_HOME/bin:$PATH

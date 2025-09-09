@@ -1,7 +1,6 @@
 # Config files
 - kitty
 - zsh
-- htop
 - nano
 
 # Tools
@@ -13,7 +12,7 @@
 - tree
 - bat (cat colored substitute)
 - paru
-- htop
+- btop
 - zsh
 
 # Font & Theme/icons

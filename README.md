@@ -14,6 +14,7 @@
 - paru
 - btop
 - zsh
+- os-prober
 
 # Font & Theme/icons
 - Fira Code Nerd Font

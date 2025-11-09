@@ -2,6 +2,7 @@
 - kitty
 - zsh
 - nano
+- yazi
 
 # Tools
 - yazi

@@ -5,6 +5,7 @@
 - yazi
 
 # Tools
+- evince (GNOME document viewer)
 - yazi
 - tealdeer (tldr substitute)
 - exa

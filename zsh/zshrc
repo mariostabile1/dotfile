@@ -17,7 +17,7 @@ PROMPT="%F{white}╭─ %F{green}%n%f@%F{white}%m %F{green}%~%f
  
 # Loading plugins
 zinit light zsh-users/zsh-syntax-highlighting # Hightlight commands
-zinit light zsh-users/zsh-completions	     # Help to complete the commands
+zinit light zsh-users/zsh-completions	      # Help to complete the commands
 zinit light zsh-users/zsh-autosuggestions     # Seggestions based on the history
 
 # Loading completition plugin
@@ -61,7 +61,7 @@ alias la="ls -lah"
 alias lock="xdg-screensaver lock"
 alias python="python3"
 alias ..="cd .."
-alias mktemp="cd $(mktemp -d)"
+alias temp="cd $(mktemp -d)"
 
 # montaggio disco remoto di copyparty con rclone
 alias copyparty="rclone mount --vfs-cache-mode writes --dir-cache-time 5s rasp-dav: ~/Desktop/webdav-mp &> /dev/null & disown"
@@ -70,7 +70,6 @@ alias copyparty="rclone mount --vfs-cache-mode writes --dir-cache-time 5s rasp-d
 alias nt="nautilus . &> /dev/null & disown"
 
 alias grub-update="sudo grub-mkconfig -o /boot/grub/grub.cfg"
-
 # Shell integrations
 eval "$(fzf --zsh)" # Ctrl+r
 
@@ -82,4 +81,10 @@ function yz() {
 		builtin cd -- "$cwd"
 	fi
 	rm -f -- "$tmp"
+}
+
+# evince
+function ev() {
+	evince "$1" &> /dev/null & 
+	disown
 }

@@ -17,6 +17,7 @@
 - btop
 - zsh
 - os-prober
+- ulauncher
 
 # Font & Theme/icons
 - Fira Code Nerd Font

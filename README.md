@@ -3,6 +3,7 @@
 - zsh
 - nano
 - yazi
+- starship
 
 # Tools
 - evince (GNOME document viewer)
@@ -18,6 +19,7 @@
 - zsh
 - os-prober
 - ulauncher
+- starship
 
 # Font & Theme/icons
 - Fira Code Nerd Font

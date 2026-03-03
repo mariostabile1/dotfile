@@ -1,5 +1,5 @@
 # 1. IMPOSTAZIONI GLOBALI (Devono stare ASSOLUTAMENTE in cima)
-add_newline = true
+add_newline = false
 palette = "catppuccin_mocha"
 
 
@@ -12,10 +12,14 @@ format = '''
 [username]
 show_always = true
 style_user = "green"
+# Forziamo il formato per mostrare solo l'utente, senza testo aggiuntivo
+format = "[$user]($style)"
 
 [hostname]
 ssh_only = false
 style = "text"
+# Forziamo il formato per mostrare solo l'hostname
+format = "[$hostname]($style)"
 
 [directory]
 style = "green"

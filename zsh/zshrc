@@ -11,13 +11,12 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 
 # Prompt setup
+#PROMPT="%F{white}╭─ %F{green}%n%f@%F{white}%m %F{green}%~%f
+#%F{white}╰─%F{green}>%f "
 
-PROMPT="%F{white}╭─ %F{green}%n%f@%F{white}%m %F{green}%~%f
-%F{white}╰─%F{green}>%f "
- 
 # Loading plugins
 zinit light zsh-users/zsh-syntax-highlighting # Hightlight commands
-zinit light zsh-users/zsh-completions	      # Help to complete the commands
+zinit light zsh-users/zsh-completions	     # Help to complete the commands
 zinit light zsh-users/zsh-autosuggestions     # Seggestions based on the history
 
 # Loading completition plugin
@@ -88,3 +87,6 @@ function ev() {
 	evince "$1" &> /dev/null & 
 	disown
 }
+
+# starship PROMPT
+eval "$(starship init zsh)"

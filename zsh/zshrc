@@ -62,9 +62,6 @@ alias python="python3"
 alias ..="cd .."
 alias temp="cd $(mktemp -d)"
 
-# montaggio disco remoto di copyparty con rclone
-alias copyparty="rclone mount --vfs-cache-mode writes --dir-cache-time 5s rasp-dav: ~/Desktop/webdav-mp &> /dev/null & disown"
-
 # &> reindirizza sia stderr che stdout dentro /dev/null
 alias nt="nautilus . &> /dev/null & disown"
 

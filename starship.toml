@@ -6,7 +6,7 @@ palette = "catppuccin_mocha"
 # 3. FORMATO DEL PROMPT (Identico al tuo ZSH)
 format = '''
 [╭─ ](text)[$username](green)[@](text)[$hostname](text)[ $directory](green)
-[╰─](text)[$git_branch](green)[$git_status](green)[> ](green)'''
+[╰─ ](text)[$python](yellow)[$git_branch](green)[$git_status](green)[> ](green)'''
 
 # 4. CONFIGURAZIONE MODULI
 [username]
@@ -33,6 +33,10 @@ format = "[$symbol$branch ]($style)"
 [git_status]
 style = "green"
 format = '([\[$all_status$ahead_behind\]]($style) )'
+
+[python]
+format = '[(\($virtualenv\) )]($style)'
+style = "yellow"
 
 # 2. DEFINIZIONE PALETTE
 [palettes.catppuccin_mocha]

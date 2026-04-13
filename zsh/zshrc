@@ -43,6 +43,7 @@ bindkey '^n' history-search-forward  # Ctrl+n
 # Keybinds for Bash-like navigation
 bindkey 'C' forward-word # Ctrl+RightArrow
 bindkey 'D' backward-word # Ctrl+LeftArrow
+bindkey '~' delete-char # Canc behaviour
 
 # Completition styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}' # Match case insesitive files

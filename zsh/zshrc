@@ -40,9 +40,9 @@ bindkey -e
 bindkey '^p' history-search-backward # Ctrl+p
 bindkey '^n' history-search-forward  # Ctrl+n
 
-# Keybinds for Bash-like navigation
-bindkey 'C' forward-word # Ctrl+RightArrow
-bindkey 'D' backward-word # Ctrl+LeftArrow
+# Keybinds for Bash-like navigation (forcing emacs default keymap on zsh)
+bindkey "^[[1;5C" forward-word # Ctrl+RightArrow
+bindkey "^[[1;5D" backward-word # Ctrl+LeftArrow
 bindkey '~' delete-char # Canc behaviour
 
 # Completition styling
